@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Introduction Form
+        </title>
+         <link rel="stylesheet" href="CSS\Styles.css">
+    </head>
+    <h1>
+        Introductory Form
+    </h1>
+    <form>
+        <p>
+            <label>First Name <input type="text" allign="Middle" required> </label> 
+            <label>Middle Name <input type="text" allign="Middle"required> </label>
+            <label>Last Name <input type="text" allign="Middle"required> </label>
+        </p>
+            <p> 
+               Gender :  <label>Male<input type="radio" name="gender" value="Male"></label>
+                        <label>Female<input type="radio" name="gender" value="Female"></label>
+                        <label>Other<input type="radio" name="gender" value="Other"></label>
+           </p>
+           <p>
+                Nationality:
+                <select name="Nationality" required>
+                 <option value="Indian">Indian</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <option value="Srilanka">Srilanka</option>
+                <option value="China">China</option>
+                <option value="Korea">Korea</option>
+                </select>
+           </p>
+           <p>
+            <label>
+            Address :
+            <textarea name="Address" rows="3" cols="25"required></textarea>
+            </label>
+           </p>
+        <p>
+            <label>Date of Birth:<input type="date" name="birthDate"required></label>
+        </p>
+           <p>
+            <ul  style="list-style-type:none;">
+                <label>
+             Languages you know
+                <li><input type="checkbox" name="language" value="hindi" />Hindi</li>
+                <li><input type="checkbox" name="language" value="english" />English</li>
+                <li><input type="checkbox" name="language" value="sanskrit" />Sanskrit</li>
+                </label>
+            </ul>
+           </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+    </form>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(224, 182, 182)
+}
+
+hr {
+    border-bottom-color: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-color: #722135;
+    border-top-style: dotted;
+    border-top-width: 6px;
+    height: 50%;
+    width: 5%;
+}
+
+h1 {
+    color: #8d4334;
+}
+
+h3 {
+    color: #8d4334;
+    font-style: italic;
+}
+
+h2 {
+    color: #8d4334;
+}
